@@ -1,0 +1,17 @@
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Services.deps.json
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Services.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Services.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Entities.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Repositories.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Entities.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\bin\Debug\net6.0\SupermarketApp.Repositories.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.csproj.AssemblyReference.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.AssemblyInfoInputs.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.AssemblyInfo.cs
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.csproj.CopyComplete
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\refint\SupermarketApp.Services.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\SupermarketApp.Services.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Services\obj\Debug\net6.0\ref\SupermarketApp.Services.dll

@@ -1,0 +1,58 @@
+<div class="table-wrapper">
+  <div class="button-container">
+    <button class="add-button " (click)="openCreateRayonModal()"><b>Reyon Ekle</b></button>
+  </div>
+  <div class="container mt-5">
+    <table class="table table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Id</th>
+          <th>Reyon Adı</th>
+          <th>MarketId</th>
+          <th>Reyon Tipi</th>
+          <th>Ürünler</th>
+          <th>Oluşturma Tarihi</th>
+          <th>Güncelleme Tarihi</th>
+          <th>Sil</th>
+          <th>Güncelle</th>
+          <th>Ürün Ekle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rayon of filteredRayons; let i = index">
+          <th scope="row">{{ i + 1 }}</th>
+          <td><b>{{rayon.id}}</b></td>
+          <td><b>R{{ i + 1 }}</b></td>
+          <td><b>{{ rayon.marketId }}</b></td>
+          <td><b>{{ rayon.rayonType }}</b></td>
+          <td>
+            <ul>
+              <li *ngFor="let product of rayon.products" class="product-warning" [class.disabled]="true"><b>{{ product.name }}</b></li>
+            </ul>
+          </td>
+          <td><b>{{ rayon.createdDate | date }}</b></td>
+          <td><b>{{ rayon.updatedDate | date }}</b></td>
+          <td>
+            <button class="btn btn-danger btn-sm" (click)="deleteRayon(rayon.id)">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-primary btn-sm" (click)="openCreateRayonModal(rayon)">
+              <i class="fas fa-edit"></i>
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-primary btn-sm" (click)="openCreateProductModal(rayon)">
+              <i class="fas fa-add"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-create-rayon #createRayonModal (onSave)="refreshRayons()"></app-create-rayon>
+<app-create-product #createProductModal (onSave)="refreshRayons()"></app-create-product>

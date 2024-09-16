@@ -1,0 +1,33 @@
+.header {
+  background-color: #343a40;
+  border-bottom: 1px solid #dee2e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 10px 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-actions {
+  display: flex; 
+  align-items: center; 
+}
+
+.header-actions .btn {
+  margin-right: 10px; 
+}
+
+.header-actions .btn:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+}

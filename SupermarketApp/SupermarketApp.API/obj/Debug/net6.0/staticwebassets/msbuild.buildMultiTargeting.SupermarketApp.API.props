@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SupermarketApp.API.props" />
+</Project>

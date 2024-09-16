@@ -1,0 +1,17 @@
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Repositories.deps.json
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Repositories.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Repositories.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Entities.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Entities.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.csproj.AssemblyReference.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.AssemblyInfoInputs.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.AssemblyInfo.cs
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.csproj.CopyComplete
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\refint\SupermarketApp.Repositories.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.pdb
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\ref\SupermarketApp.Repositories.dll
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\bin\Debug\net6.0\SupermarketApp.Repositories.runtimeconfig.json
+C:\Users\merts\OneDrive\Masaüstü\SupermarketApp\SupermarketApp\SupermarketApp.Repositories\obj\Debug\net6.0\SupermarketApp.Repositories.genruntimeconfig.cache

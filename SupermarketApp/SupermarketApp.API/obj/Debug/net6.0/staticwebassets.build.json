@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kSF29t47xWoBvv1/E+YE1OD1BQFlqbvI1rnt9ol3ctQ=",
+  "Source": "SupermarketApp.API",
+  "BasePath": "_content/SupermarketApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

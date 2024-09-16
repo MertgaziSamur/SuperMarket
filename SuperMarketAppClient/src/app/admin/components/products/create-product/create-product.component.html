@@ -1,0 +1,34 @@
+<div class="modal fade" id="createProductModal" tabindex="-1" aria-labelledby="createProductModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="createProductModalLabel">{{ isEditMode ? 'Ürünü Güncelle' : 'Yeni Ürün Ekle' }}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form (ngSubmit)="onSubmit()" #productForm="ngForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Ürün Adı</label>
+            <input type="text" id="name" class="form-control" [(ngModel)]="product.name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="marketId" class="form-label">Taşınacak Marketi Seçin</label>
+            <select id="marketId" class="form-control" [(ngModel)]="selectedMarketId" (change)="onMarketChange()" name="marketId" required>
+              <option *ngFor="let market of markets" [value]="market.id">{{ market.name }}</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="rayonId" class="form-label">Taşınacak Reyonu Seçin</label>
+            <select id="rayonId" class="form-control" [(ngModel)]="product.rayonId" name="rayonId" required>
+              <option *ngFor="let rayon of rayons" [value]="rayon.id">{{ rayon.rayonType }}</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="deleteProduct()" >Ürünü Sil</button>
+        <button type="button" class="btn btn-primary" (click)="onSubmit()">{{ isEditMode ? 'Güncelle' : 'Ekle' }}</button>
+      </div>
+    </div>
+  </div>
+</div>

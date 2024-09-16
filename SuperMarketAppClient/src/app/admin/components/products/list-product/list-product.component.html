@@ -1,0 +1,37 @@
+<div class="table-wrapper">
+  <div class="button-container">
+    <button class="add-button" (click)="openCreateProductModal()"><b>Ürün Ekle</b></button>
+  </div>
+  <div class="container mt-5">
+    <table class="table table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Ürün Adı</th>
+          <th>Rayon ID</th>
+          <th>Market ID</th>
+          <th>Oluşturma Tarihi</th>
+          <th>Güncelleme Tarihi</th>
+          <th>Güncelle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of filteredProducts; let i = index">
+          <th scope="row">{{ i + 1 }}</th>
+          <td><b>{{ product.name }}</b></td>
+          <td><b>{{ product.rayonId }}</b></td>
+          <td><b>{{ product.marketId }}</b></td>
+          <td><b>{{ product.createdDate | date }}</b></td>
+          <td><b>{{ product.updatedDate | date }}</b></td>
+          <td>
+            <button class="btn btn-primary btn-sm" (click)="openCreateProductModal(product)">
+              <i class="fas fa-edit"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-create-product #createProductModal (onSave)="refreshProducts()"></app-create-product>
